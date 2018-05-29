@@ -16,4 +16,16 @@ attr_reader(:route_number, :destination, :passengers)
     return @passengers.length()
   end
 
+  def pick_up(passenger)
+    return @passengers << passenger
+  end
+
+  def drop_off(passenger)
+     @passengers.delete(passenger)
+  end
+
+  def empty()
+    @passengers.clear()
+  end
+
 end
