@@ -22,15 +22,4 @@ class BusStopTest < MiniTest::Test
     assert_equal(3, @bus_stop1.count_people_queuing())
   end
 
-  # def test_pick_up_from_stop__queue_empty
-  #   @bus1.pick_up_from_stop(@bus_stop)
-  #   assert_equal(1, @bus1.count_passengers())
-  # end
-
-
-  # def test_pick_up_from_stop__queue_empty
-  #   @bus_stop1.pick_up_from_stop(queue)
-  #   assert_equal(1, @queue.length())
-  # end
-
 end
