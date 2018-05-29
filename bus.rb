@@ -28,4 +28,8 @@ attr_reader(:route_number, :destination, :passengers)
     @passengers.clear()
   end
 
+  def pick_up_from_stop(stop)
+    @passengers.concat(stop.queue())
+  end
+
 end

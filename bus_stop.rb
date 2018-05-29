@@ -15,4 +15,8 @@ attr_reader(:name, :queue)
     return queue << person
   end
 
+  # def pick_up_from_stop(bus)
+  #   @queue.concat(bus.passengers())
+  # end
+
 end
